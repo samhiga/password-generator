@@ -13,24 +13,33 @@ var char = {
 
 }
 // Write password to the #password input
-function writePassword() {
- var length = prompt("Please enter length of password, 8-128")
+function generatePassword(){
+var length = prompt("Please enter length of password, 8-128")
 //  var lowercase = prompt("include lowercase?")
 //  var uppercase = prompt("include uppercase?")
 //  var numeric = prompt("include numeric?")
 //  var specialCharacter = prompt("include special characters?")
-var password = generatePassword();
-var passwordText = document.querySelector("#password");
 // var password = choices[Math.floor(Math.random() * char.length)];
-passwordText.value = password;
 
 
-if (length < 8 && length > 128) {
-  alert("password must contain at least 8 characters and less 129 characters");
+if (length < 8 || length > 128) {
+  alert("password must contain at least 8 characters and less than 129 characters");
   return length;
 }
 
+var userLowercase = confirm("include lowercase characters?")
+
+if (userLowercae) {
+  
+}
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+function writePassword() {
+  var passwordText = document.querySelector("#password");
+  var password = generatePassword();
+  passwordText.value = password;
+}
+  
