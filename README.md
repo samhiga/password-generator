@@ -7,11 +7,11 @@
 | HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | 
 | CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
 | Git | [https://git-scm.com/](https://git-scm.com/)     | 
-| Javascript | [https://developer.mozilla.org/en-US/docs/Web/JavaScript] (https://developer.mozilla.org/en-US/docs/Web/JavaScript)   |
+| Javascript | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)   |
 
 ## Description 
 
-[Visit the Deployed Site](https://youtu.be/BFyeuLhjcPY)
+[Visit the Deployed Site](https://samhiga.github.io/password-generator/)
 
 My site has the ability to generate a user a random password that includes optional variables for the password inteded for those looking to create an account, but can't think of an unpredictable password. Depending on the criteria the user has, items like upper and lower case letters can be chosen to be included in the password. The password is then displayed on the page for the user for copy and paste. The site was created using HTML and CSS started code and added functions accodingly from Javascript.
 
@@ -105,11 +105,11 @@ Through this project I was able to learn and understand a lot more about Javascr
 
 ## Credits
 
-![Math.Random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+[Math.Random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
-![For Loop](https://www.w3schools.com/js/js_loop_for.asp)
+[For Loop](https://www.w3schools.com/js/js_loop_for.asp)
 
-![If Statement](https://www.w3schools.com/js/js_if_else.asp)
+[If Statement](https://www.w3schools.com/js/js_if_else.asp)
 
 
 
