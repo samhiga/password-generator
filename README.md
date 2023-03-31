@@ -40,7 +40,6 @@ To get a hold of this project, simply navigate to my Github profile and select t
    var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
    var numeric = "0123456789";
    var special = "!#$%&()*+,-./;:<>=?@[/]^";
-   var passwordVal = "";
 ```
 
 In the above code, I used arrays to store the different characters within the variables users can choose from. [<header> Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). 
@@ -52,19 +51,19 @@ if (lengthPass < 8 || lengthPass > 128) {
    }
   
    var userLowercase = confirm("include lowercase characters?")
-   if (userLowercase) {passwordVal += lowercase}
+   if (userLowercase) {passwordChar += lowercase}
 
   var userUppercase = confirm("include uppercase characters?")
-   if (userUppercase) {passwordVal += uppercase}
+   if (userUppercase) {passwordChar += uppercase}
 
   var userNumeric = confirm("include numeric characters?")
-   if (userNumeric) {passwordVal += numeric}
+   if (userNumeric) {passwordChar += numeric}
 
    var userSpecial = confirm("include special characters?")
-   if (userSpecial) {passwordVal += special}
+   if (userSpecial) {passwordChar += special}
 
    for (var i = 0; i < lengthPass; i++) {
-     password += passwordVal[Math.floor(Math.random() * passwordVal.length)];
+     password += passwordChar[Math.floor(Math.random() * passwordChar.length)];
    }
 
 ```
@@ -78,12 +77,12 @@ In order to use the password generator, open it using the deployed link. From th
 
 
 
-```md
+
 ![Landing Page](./assets/07FCBABE-F584-4321-9EF0-F30F96F2294F_1_105_c.jpeg)
 ![Length](./assets/Screen%20Shot%202023-03-30%20at%206.12.22%20PM.png)
 ![Confirm](./assets/Screen%20Shot%202023-03-30%20at%206.12.31%20PM.png)
 ![Password](./assets/Screen%20Shot%202023-03-30%20at%206.44.38%20PM.png)
-```
+
 
 
 ## Learning Points 
@@ -94,14 +93,14 @@ Through this project I was able to learn and understand a lot more about Javascr
 
 ## Author Info
 
-```md
+
 ### Sam Higa 
 
 
 * [Portfolio](https://samhiga.github.io/my-portfolio/)
 * [LinkedIn](https://www.linkedin.com/in/sam-higa-b887b9209/)
 * [Github](https://github.com/samhiga)
-```
+
 
 
 ## Credits
